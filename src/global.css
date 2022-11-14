@@ -1,3 +1,9 @@
+:root {
+	--cyan: rgb(139, 233, 253);
+	--pink: rgb(255, 121, 198);
+	--purple: rgb(189, 147, 249);
+}
+
 @font-face {
 	font-family: hubotSans;
 	src: url('/fonts/hubotSans-regular.ttf');
@@ -21,11 +27,11 @@
 }
 
 body {
-	background-color: #333333;
+	background-color: #020122;
 }
 
 .active {
-	border-bottom: 2px solid #50fa7b;
+	border-bottom: 2px solid var(--purple);
 }
 
 :root {
@@ -64,14 +70,29 @@ svg {
 	transform: rotate(90deg);
 }
 
-.active {
-	border-bottom: 2px solid red;
-}
-
 ninja-keys {
 	--ninja-overflow-background: transparent;
 	--ninja-backdrop-filter: blur(15px);
-	--ninja-accent-color: #50fa7b;
+	--ninja-accent-color: var(--pink);
 	--ninja-font-size: 22px;
-	--ninja-modal-background: rgba(24, 24, 24, 0.8);
+	--ninja-modal-background: rgba(0, 0, 0, 0.8);
+}
+
+.magic {
+	animation: background-pan 3s linear infinite;
+	background: linear-gradient(to right, var(--cyan), var(--pink), var(--purple), var(--cyan));
+	background-size: 200%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	white-space: nowrap;
+}
+
+@keyframes background-pan {
+	from {
+		background-position: 0% center;
+	}
+	to {
+		background-position: -200% center;
+	}
 }

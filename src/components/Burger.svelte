@@ -7,7 +7,7 @@
 	export let width = 50;
 </script>
 
-<button class="stroke-white bg-transparent flex items-center overflow-hidden absolute top-0 right-0 border-none z-20 hover:stroke-[#ff5555]" on:click={onClick} aria-expanded={open} aria-label={ariaLabel}>
+<button class="stroke-white bg-transparent flex items-center overflow-hidden absolute top-0 right-0 border-none z-20 hover:stroke-purple-300" on:click={onClick} aria-expanded={open} aria-label={ariaLabel}>
 	<svg class:open viewBox="0 0 100 100" fill="none"  stroke-width="7" {width}>
 		<path
 			class="top"
