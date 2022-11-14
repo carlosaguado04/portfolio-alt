@@ -90,7 +90,7 @@
       keywords: "GS repo code",
       section: 'Other actions',
       handler: () => {
-        window.open("https://github.com/carlosaguado04/portfolio")
+        window.open("https://github.com/carlosaguado04/portfolio-alt")
       },
     },
     {
