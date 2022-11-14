@@ -2,7 +2,13 @@ const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {
+			fontFamily: {
+				hubotSans: ['hubotSans'],
+				hubotSansBold: ['hubotSansBold'],
+				hubotSansXbold: ['hubotSansXbold']
+			}
+		}
 	},
 
 	plugins: []

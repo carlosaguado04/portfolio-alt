@@ -1,7 +1,23 @@
+@font-face {
+	font-family: hubotSans;
+	src: url('/fonts/hubotSans-regular.ttf');
+}
+
+@font-face {
+	font-family: hubotSansBold;
+	src: url('/fonts/hubotSans-bold.ttf');
+}
+
+@font-face {
+	font-family: hubotSansXbold;
+	src: url('/fonts/hubotSansXbold.ttf');
+}
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: hubotSansXbold;
 }
 
 body {

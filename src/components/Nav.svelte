@@ -7,7 +7,7 @@
 		open = !open;
 	};
 </script>
-<nav class="h-14 w-screen fixed flex">
+<nav class="h-14 w-screen fixed flex font-hubotSansXbold">
   <div class="w-full flex items-center justify-center">
     <a href="/"><svg class="fill-white stroke-white hover:fill-red-500 hover:stroke-red-500" width="65" height="46" viewBox="0 0 65 46" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M24.6258 44.6007L24.6174 44.5982L24.6089 44.5961C22.4982 44.0723 21.2045 41.9305 21.7276 39.8215C21.7276 39.8212 21.7277 39.821 21.7277 39.8208L30.6143 4.27454C30.6144 4.27414 30.6145 4.27373 30.6146 4.27333C31.1543 2.16361 33.2955 0.883186 35.4078 1.3901C37.5176 1.931 38.7952 4.07237 38.2717 6.18245C38.2717 6.18256 38.2716 6.18267 38.2716 6.18277L29.3844 41.7315C28.9377 43.5184 27.3357 44.7203 25.5647 44.7203C25.2501 44.7203 24.9341 44.6887 24.6258 44.6007Z"/>
