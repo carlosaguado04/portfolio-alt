@@ -7,3 +7,4 @@ In this repo you will find the code that I used to build my personal portfolio.
 1. [SvelteKit](https://kit.svelte.dev/)
 2. [TailwindCss](https://tailwindcss.com/)
 3. [NinkaKeys](https://github.com/ssleptsov/ninja-keys)
+4. [Hubot font](https://github.com/mona-sanea)
