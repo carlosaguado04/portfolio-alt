@@ -2,8 +2,8 @@
 	import { fly } from 'svelte/transition';
 </script>
 
-<div class="h-screen w-screen flex flex-col items-center justify-center">
-	<div class="text-center mt-10 text-white uppercase md:mt-10">
+<div class="w-screen flex flex-col items-center justify-center">
+	<div class="text-center mt-24 text-white uppercase md:mt-32">
 		<h1
 			in:fly={{ y: 100, duration: 500, delay: 700 }}
 			out:fly={{ y: -100, duration: 500 }}
@@ -15,10 +15,10 @@
 	<div
 		in:fly={{ y: 100, duration: 500, delay: 800 }}
 		out:fly={{ y: -100, duration: 500 }}
-		class="text-white font-hubotSans mt-16 text-left leading-10 text-3xl p-16"
+		class="text-white font-hubotSans text-left leading-10 text-3xl p-16"
 	>
 		<p>
-			Hi! I'm <span class="magic">Carlos Aguado</span> I'm a mexican front-end web developer currently
+			Hi! I'm <span class="magic2">Carlos Aguado</span> I'm a mexican front-end web developer currently
 			based in Istanbul, Turkey.
 		</p>
 		<p class="text-center mt-10">I have experience working with:</p>
@@ -113,5 +113,20 @@
 				/></svg
 			>
 		</div>
+	</div>
+	<div class="text-white text-center font-hubotSansXbold text-2xl mt-16">
+		<h1>Scroll for a brief timeline of my proffesional life...</h1>
+	</div>
+	<div class="divider flex items-center fill-white stroke-white mt-10">
+		<svg
+			class="animate-bounce"
+			viewBox="0 0 24 24"
+			width="32"
+			height="32"
+			stroke-width="2"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			><line x1="12" y1="5" x2="12" y2="19" /><polyline points="19 12 12 19 5 12" /></svg
+		>
 	</div>
 </div>

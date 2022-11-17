@@ -2,6 +2,9 @@
 	--cyan: rgb(139, 233, 253);
 	--pink: rgb(255, 121, 198);
 	--purple: rgb(189, 147, 249);
+	--green: rgb(139, 233, 253);
+	--yellow: rgb(241, 250, 140);
+	--red: rgb(255, 85, 85);
 }
 
 @font-face {
@@ -87,6 +90,15 @@ ninja-keys {
 	white-space: nowrap;
 }
 
+.magic2 {
+	animation: background-pan 3s linear infinite;
+	background: linear-gradient(to right, var(--green), var(--yellow), var(--red), var(--green));
+	background-size: 200%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	white-space: nowrap;
+}
 @keyframes background-pan {
 	from {
 		background-position: 0% center;
