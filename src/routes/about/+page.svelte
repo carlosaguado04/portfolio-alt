@@ -3,26 +3,21 @@
 </script>
 
 <div class="w-screen flex flex-col items-center justify-center">
-	<div class="text-center mt-24 text-white uppercase md:mt-32">
-		<h1
-			in:fly={{ y: 100, duration: 500, delay: 700 }}
-			out:fly={{ y: -100, duration: 500 }}
-			class="text-5xl md:text-8xl font-hubotSansXbold magic"
-		>
-			ABOUT ME
-		</h1>
-	</div>
-
 	<div
 		in:fly={{ y: 100, duration: 500, delay: 800 }}
 		out:fly={{ y: -100, duration: 500 }}
-		class="text-white font-hubotSans text-left leading-10 text-3xl p-16"
+		class="text-white font-hubotSans leading-10  p-16 mt-20 text-center"
 	>
-		<p>
-			Hi! I'm <span class="magic2">Carlos Aguado</span> I'm a mexican front-end web developer currently
-			based in Istanbul, Turkey.
+		<p class="text-5xl font-hubotSansXbold">
+			Hi! I'm <span class="magic2">Carlos Aguado</span>
 		</p>
-		<p class="text-center mt-10">I have experience working with:</p>
+		<p class="mt-20 text-3xl text-left">
+			I'm a mexican front-end web developer currently based in Istanbul, Turkey. I have a passion
+			for building websites and apps, and to personalize all the <a class="magic" href="/tools"
+				>tools</a
+			> I use to my own taste, love cars, travel and music.
+		</p>
+		<p class="text-center mt-10 text-3xl">I have experience working with:</p>
 	</div>
 	<div
 		in:fly={{ x: 100, duration: 500, delay: 900 }}
@@ -115,8 +110,8 @@
 			>
 		</div>
 	</div>
-	<div class="text-white text-center font-hubotSansXbold text-2xl mt-16">
-		<h1>Scroll for a brief timeline of my proffesional life...</h1>
+	<div class="font-hubotSansXbold text-white text-center text-3xl mt-16">
+		<p>Scroll for a brief timeline of my proffesional life...</p>
 	</div>
 	<div class="divider flex items-center fill-white stroke-white mt-10">
 		<svg

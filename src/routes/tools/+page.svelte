@@ -9,7 +9,7 @@
 			out:fly={{ y: -100, duration: 500 }}
 			class="text-5xl md:text-8xl font-hubotSansXbold magic"
 		>
-			CONTACT ME
+			TOOLS
 		</h1>
 	</div>
 </div>
