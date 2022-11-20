@@ -6,6 +6,7 @@
 	export let onClick = () => {
 		open = !open;
 	};
+	import Footer from '../components/Footer.svelte';
 </script>
 
 <nav class="h-14 w-screen fixed flex font-hubotSansXbold">
@@ -56,8 +57,12 @@
 				class="border-b-2 border-transparent p-3"
 				class:active={$page.url.pathname === '/contact'}
 			>
-				<a on:click={onClick} on:keyup={onClick} href="contact">CONTACT ME</a>
+				<a on:click={onClick} on:keyup={onClick} href="/contact">CONTACT ME</a>
 			</li>
+			<li class="border-b-2 border-transparent p-3" class:active={$page.url.pathname === '/tools'}>
+				<a on:click={onClick} on:keyup={onClick} href="/tools">WHAT I USE</a>
+			</li>
+			<Footer />
 		</ul>
 	{/if}
 </nav>

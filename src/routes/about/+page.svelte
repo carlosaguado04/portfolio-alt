@@ -110,10 +110,18 @@
 			>
 		</div>
 	</div>
-	<div class="font-hubotSansXbold text-white text-center text-3xl mt-16">
+	<div
+		in:fly={{ y: 100, duration: 500, delay: 1000 }}
+		out:fly={{ y: -100, duration: 500 }}
+		class="font-hubotSansXbold text-white text-center text-3xl mt-16"
+	>
 		<p>Scroll for a brief timeline of my proffesional life...</p>
 	</div>
-	<div class="divider flex items-center fill-white stroke-white mt-10">
+	<div
+		in:fly={{ y: 100, duration: 500, delay: 1100 }}
+		out:fly={{ y: -100, duration: 500 }}
+		class="divider flex items-center fill-white stroke-white mt-10"
+	>
 		<svg
 			class="animate-bounce"
 			viewBox="0 0 24 24"
@@ -125,4 +133,5 @@
 			><line x1="12" y1="5" x2="12" y2="19" /><polyline points="19 12 12 19 5 12" /></svg
 		>
 	</div>
+	<div class="timeline h-screen" />
 </div>
