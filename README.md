@@ -18,7 +18,7 @@ In this repo you will find the code that I used to build my personal portfolio.
   - [ ] Setup a mongoDB to store the contact information.
   - [ ] Add socials.
 - [ ] Create a footer.
-- [ ] Check responsivness.
+- [ ] Check resposiveness.
 
 ### Ideas
 
