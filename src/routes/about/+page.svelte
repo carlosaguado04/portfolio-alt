@@ -2,7 +2,7 @@
 	import { fly } from 'svelte/transition';
 </script>
 
-<div class="w-screen h-screen flex flex-col items-center justify-center">
+<div class="w-screen h-max flex flex-col items-center justify-center">
 	<div
 		in:fly={{ y: 100, duration: 500, delay: 800 }}
 		out:fly={{ y: -100, duration: 500 }}
