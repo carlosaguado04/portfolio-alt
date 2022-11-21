@@ -6,23 +6,23 @@
 	<div
 		in:fly={{ y: 100, duration: 500, delay: 800 }}
 		out:fly={{ y: -100, duration: 500 }}
-		class="text-white font-hubotSans leading-10  p-16 mt-20 text-center"
+		class="w-full text-white font-hubotSans leading-10  p-16 mt-20 text-center"
 	>
-		<p class="text-5xl font-hubotSansXbold">
+		<p class="text-3xl font-hubotSansXbold md:text-5xl">
 			Hi! I'm <span class="magic2">Carlos Aguado</span>
 		</p>
-		<p class="mt-20 text-3xl text-left">
+		<p class="mt-20 text-2xl text-center md:text-left md:text-3xl">
 			I'm a mexican front-end web developer currently based in Istanbul, Turkey. I have a passion
 			for building websites and apps, and to personalize all the <a class="magic" href="/tools"
 				>tools</a
 			> I use to my own taste, love cars, travel and music.
 		</p>
-		<p class="text-center mt-10 text-3xl">I have experience working with:</p>
+		<p class="text-center mt-10 text-2xl md:text-3xl">I have experience working with:</p>
 	</div>
 	<div
 		in:fly={{ x: 100, duration: 500, delay: 900 }}
 		out:fly={{ x: -100, duration: 500 }}
-		class="flex flex-col items-center justify-around w-full md:flex-row md:p-16"
+		class="flex flex-col items-center justify-around w-full p-5 md:flex-row md:p-16"
 	>
 		<div class="flex flex-row w-full items-center justify-around">
 			<svg
@@ -113,7 +113,7 @@
 	<div
 		in:fly={{ y: 100, duration: 500, delay: 1000 }}
 		out:fly={{ y: -100, duration: 500 }}
-		class="font-hubotSansXbold text-white text-center text-3xl mt-16"
+		class="font-hubotSansXbold text-white text-center text-2xl mt-16 md:text-3xl"
 	>
 		<p>Scroll for a brief timeline of my proffesional life...</p>
 	</div>
