@@ -7,14 +7,14 @@
 		<h1
 			in:fly={{ y: 100, duration: 500, delay: 500 }}
 			out:fly={{ y: -100, duration: 500 }}
-			class="text-5xl md:text-8xl font-hubotSansXbold magic"
+			class="text-4xl md:text-8xl font-hubotSansXbold magic"
 		>
 			Carlos Aguado
 		</h1>
 		<h3
 			in:fly={{ y: 100, duration: 500, delay: 700 }}
 			out:fly={{ y: -100, duration: 500, delay: 300 }}
-			class="text-3xl mt-16 md:text-5xl font-hubotSansXbold"
+			class="text-2xl mt-16 md:text-5xl font-hubotSansXbold"
 		>
 			Front-end web developer
 		</h3>
