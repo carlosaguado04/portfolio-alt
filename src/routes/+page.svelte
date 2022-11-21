@@ -22,7 +22,7 @@
 	<div
 		in:fly={{ y: 100, duration: 500, delay: 900 }}
 		out:fly={{ y: -100, duration: 500, delay: 500 }}
-		class="text-white flex flex-row items-center justify-center mt-16 text-[10px]"
+		class="hidden text-white flex-row items-center justify-center mt-16 text-[10px] md:flex"
 	>
 		<svg
 			viewBox="0 0 24 24"
