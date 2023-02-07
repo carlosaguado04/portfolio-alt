@@ -3,7 +3,7 @@
 </script>
 
 <div class="h-screen w-screen flex flex-col items-center justify-center">
-	<div class="text-center text-white uppercase">
+	<div class="select-none cursor-default text-center text-white uppercase">
 		<h1
 			in:fly={{ y: 100, duration: 500, delay: 500 }}
 			out:fly={{ y: -100, duration: 500 }}
@@ -58,6 +58,6 @@
 				</clipPath>
 			</defs>
 		</svg>
-		<p class="ml-2">+ K to continue</p>
+		<p class="ml-2 select-none cursor-default">+ K to continue</p>
 	</div>
 </div>
