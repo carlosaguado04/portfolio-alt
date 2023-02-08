@@ -1,15 +1,24 @@
-<script>
-	import { fly } from 'svelte/transition';
-</script>
+<div class="title">
+	<h1>Contact Me</h1>
+</div>
 
-<div class="h-screen w-screen flex items-center justify-center">
-	<div class="text-center text-white uppercase">
-		<h1
-			in:fly={{ y: 100, duration: 500, delay: 700 }}
-			out:fly={{ y: -100, duration: 500 }}
-			class="text-5xl md:text-8xl font-hubotSansXbold magic"
-		>
-			CONTACT ME
-		</h1>
-	</div>
+<div class="form mt-12 flex flex-col w-screen items-center">
+	<input class="w-72" type="text" name="name" id="name" placeholder="Please enter your name" />
+	<input
+		class="w-72"
+		type="text"
+		name="lastname"
+		id="lastname"
+		placeholder="Please enter your lastname"
+	/>
+	<input class="w-72" type="email" name="email" id="email" placeholder="Please enter your email" />
+	<textarea
+		class="w-72"
+		name="message"
+		id="message"
+		cols="30"
+		rows="10"
+		placeholder="Please write a message"
+	/>
+	<button class="text-white" type="submit">Submit</button>
 </div>
