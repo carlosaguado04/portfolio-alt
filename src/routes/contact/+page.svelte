@@ -4,16 +4,16 @@
 
 <div>
 	<form class="form mt-12 flex flex-col w-screen items-center" action="/">
-		<label class="text-white mt-10" for="name">Name</label>
+		<label class="text-white mt-10" for="name">Name*</label>
 		<input
-			class="w-72 bg-transparent mt-5 border-4 border-indigo-500/50 rounded-md p-2 text-white placeholder:required:text-red-700/50"
+			class="w-72 bg-transparent mt-5 border-4 border-indigo-500/50 rounded-md p-2 text-white"
 			type="text"
 			name="name"
 			id="name"
 			placeholder="Carlos"
 			required
 		/>
-		<label class="text-white mt-10" for="name">Lastname</label>
+		<label class="text-white mt-10" for="lastname">Lastname</label>
 		<input
 			class="w-72 mt-5 bg-transparent border-4 border-indigo-500/50 p-2 rounded-md text-white"
 			type="text"
@@ -21,18 +21,18 @@
 			id="lastname"
 			placeholder="Aguado"
 		/>
-		<label class="text-white mt-10" for="name">E-mail</label>
+		<label class="text-white mt-10" for="email">E-mail*</label>
 		<input
-			class="w-72 bg-transparent mt-5 border-4 border-indigo-500/50 p-2 rounded-md text-white placeholder:required:text-red-700/50"
+			class="w-72 bg-transparent mt-5 border-4 border-indigo-500/50 p-2 rounded-md text-white"
 			type="email"
 			name="email"
 			id="email"
 			placeholder="carlosaguado@icloud.com"
 			required
 		/>
-		<label class="text-white mt-10" for="name">Message</label>
+		<label class="text-white mt-10" for="message">Message*</label>
 		<textarea
-			class="w-72 bg-transparent mt-5 border-4 border-indigo-500/50 p-2 rounded-md text-white placeholder:required:text-red-700/50"
+			class="w-72 bg-transparent mt-5 border-4 border-indigo-500/50 p-2 rounded-md text-white"
 			name="message"
 			id="message"
 			cols="30"

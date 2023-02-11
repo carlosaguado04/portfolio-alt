@@ -14,11 +14,12 @@ In this repo you will find the code that I used to build my personal portfolio.
 - [ ] Add animated timeline to the about page.
 - [ ] Create cards for each one of the projects.
 - [ ] Add a nice contact page.
+  - [ ] Add a border animation for the inputs in the contact page.
   - [ ] Give an option to send an email or having me contact them.
   - [ ] Setup a mongoDB to store the contact information.
   - [ ] Add socials.
 - [x] Create a footer.
-- [ ] Check resposiveness.
+- [x] Check resposiveness.
 
 ### Ideas
 
