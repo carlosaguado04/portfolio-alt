@@ -20,7 +20,7 @@
 			name="lastname"
 			id="lastname"
 			placeholder="Aguado"
-		/>
+			/>
 		<label class="text-white mt-10" for="email">E-mail*</label>
 		<input
 			class="w-72 bg-transparent mt-5 border-4 border-indigo-500/50 p-2 rounded-md text-white"
