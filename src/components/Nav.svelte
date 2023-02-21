@@ -2,7 +2,7 @@
 	import { fly } from 'svelte/transition';
 	import Burger from '../components/Burger.svelte';
 	import { page } from '$app/stores';
-	import { clickOutside } from '../click_outside.js';
+	import { clickOutside } from '$lib/click_outside.js';
 
 	export let open = false;
 	export let onClick = () => {
