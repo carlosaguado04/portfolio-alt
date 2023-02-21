@@ -1,5 +1,5 @@
 <main class="absolute mt-32 w-screen -z-10">
-	<h1 class="title text-white text-center text-5xl">Contact me</h1>
+	<h1 class="magic title text-white text-center text-5xl">Contact me</h1>
 
 	<form class="form mt-12 flex flex-col w-screen items-center" action="/">
 		<label class="text-white mt-10" for="name">Name*</label>

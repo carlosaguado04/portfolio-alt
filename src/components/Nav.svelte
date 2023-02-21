@@ -2,6 +2,8 @@
 	import { fly } from 'svelte/transition';
 	import Burger from '../components/Burger.svelte';
 	import { page } from '$app/stores';
+	import { clickOutside } from '../click_outside.js';
+
 	export let open = false;
 	export let onClick = () => {
 		open = !open;
@@ -9,7 +11,11 @@
 	import Footer from '../components/Footer.svelte';
 </script>
 
-<nav class="h-14 w-screen fixed flex font-hubotSansXbold">
+<nav
+	class="h-14 w-screen fixed flex font-hubotSansXbold"
+	use:clickOutside
+	on:outclick={() => (open = false)}
+>
 	<div class="w-full flex items-center justify-center">
 		<a href="/"
 			><svg
