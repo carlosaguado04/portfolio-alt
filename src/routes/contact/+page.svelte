@@ -2,44 +2,31 @@
 	<h1 class="magic title text-white text-center text-5xl">Contact me</h1>
 
 	<form class="form mt-12 flex flex-col w-screen items-center" action="/">
-		<label class="text-white mt-10" for="name">Name*</label>
+		<label for="name" class="text-white">Name</label>
 		<input
-			class="w-72 bg-transparent mt-5 border-4 border-indigo-500/50 rounded-md p-2 text-white"
 			type="text"
-			name="name"
-			id="name"
-			placeholder="Carlos"
-			required
+			class="form-input rounded-xl bg-transparent text-white border-2 focus:border-purple-100 w-96"
 		/>
-		<label class="text-white mt-10" for="lastname">Lastname</label>
+		<label for="surname" class="text-white mt-12">Surname</label>
 		<input
-			class="w-72 mt-5 bg-transparent border-4 border-indigo-500/50 p-2 rounded-md text-white"
 			type="text"
-			name="lastname"
-			id="lastname"
-			placeholder="Aguado"
+			class="form-input rounded-xl bg-transparent w-96 text-white border-2 focus:border-purple-100"
 		/>
-		<label class="text-white mt-10" for="email">E-mail*</label>
+		<label for="surname" class="text-white mt-12">Email</label>
 		<input
-			class="w-72 bg-transparent mt-5 border-4 border-indigo-500/50 p-2 rounded-md text-white"
 			type="email"
-			name="email"
-			id="email"
-			placeholder="carlosaguado@icloud.com"
-			required
+			class="form-input rounded-xl bg-transparent w-96 text-white border-2 focus:border-purple-100"
 		/>
-		<label class="text-white mt-10" for="message">Message*</label>
+		<label for="message" class="text-white mt-12">Message</label>
 		<textarea
-			class="w-72 bg-transparent mt-5 border-4 border-indigo-500/50 p-2 rounded-md text-white"
 			name="message"
 			id="message"
 			cols="30"
 			rows="10"
-			placeholder="This is a message!"
-			required
+			class="form-textarea bg-transparent text-white border-2 rounded-xl focus:border-purple-100"
 		/>
 		<button
-			class="text-white mt-5 border-4 p-2 rounded-md border-indigo-500/50 hover:bg-indigo-500"
+			class="mt-12 border border-white rounded-xl text-white px-10 hover:bg-purple-100 hover:text-black"
 			type="submit">Submit</button
 		>
 	</form>
