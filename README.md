@@ -24,3 +24,4 @@ In this repo you will find the code that I used to build my personal portfolio.
 ### Ideas
 
 - [ ] Add a tools page, displaying the software and hardware that I use.
+- This is a test
