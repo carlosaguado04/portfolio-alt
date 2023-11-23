@@ -14,4 +14,8 @@
 		I use! When I'm not in my job or coding I love to travel (25 countries so far), listen music and
 		be with my family.
 	</p>
+
+	<p class="text-red-400 text-4xl mt-14 leading-loose cursor-default select-none text-center">
+		This site is not complete yet, it's a work in progress... will be updated soon. 
+	</p>
 </main>
