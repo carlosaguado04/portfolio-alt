@@ -2,8 +2,8 @@
   import {fly} from 'svelte/transition'
 </script>
 
-<div class="h-screen w-screen flex items-center justify-center">
-  <div class="text-center text-white uppercase">
-    <h1 in:fly={{y:100, duration:500, delay:700}} out:fly={{y:-100, duration:500}} class="text-5xl md:text-8xl font-hubotSansXbold magic">PROJECTS</h1>
-  </div>
-</div>
+<main class="absolute mt-32 ml-10 mr-10 -z-10" in:fly={{y:100, duration:100, delay:100}}>
+  <h1 class="magic text-white text-5xl text-center select-none cursor-default">
+    Projects
+  </h1>
+</main>
